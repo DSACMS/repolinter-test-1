@@ -15,7 +15,7 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@v4
       - name: 'Run Repolinter'
-        uses: DSACMS/repolinter-action@sachin/label-support
+        uses: DSACMS/repolinter-action@main
         with:
           output_type: 'issue'
           token: ${{ secrets.REPOLINTER_AUTO_TOKEN}}
