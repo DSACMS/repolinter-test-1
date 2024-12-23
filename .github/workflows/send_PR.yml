@@ -10,13 +10,13 @@ jobs:
     permissions:
       contents: write
       pull-requests: write
+      issues: write
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v4
       - name: 'Run Repolinter'
         uses: DSACMS/repolinter-action@sachin/label-support
         with:
-          output_type: 'pull-request'
-          pull_request_labels: 'repolinter, OSPO, Tier 1'
+          output_type: 'issue'
           token: ${{ secrets.REPOLINTER_AUTO_TOKEN}}
           # The PAT needs full `repo` scope
