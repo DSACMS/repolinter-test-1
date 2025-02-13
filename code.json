@@ -1,7 +1,7 @@
 {
   "name": "repolinter-test-1",
   "description": "Test repository for Repolinter Actions",
-  "longDescription": "",
+  "longDescription": "This is a playground to test various actions that are made with Github Actions",
   "status": "ideation",
   "permissions": {
     "licenses": [
@@ -39,14 +39,13 @@
     "email": "opensource@cms.hhs.gov",
     "name": "CMS Open Source Program Office"
   },
-  "localisation": "true",
-  "repositoryType": "",
-  "userInput": "Yes",
+  "localisation": false,
+  "repositoryType": "tools",
+  "userInput": false,
   "fismaLevel": "Low",
   "group": "CMS/OA/DSAC",
-  "subsetInHealthcare": "Policy, Operational",
-  "userType": "Providers, Patients, Government",
-  "repositoryHost": "Github.com",
-  "maturityModelTier": "1",
-  "repoType": "Package"
+  "subsetInHealthcare": ["Policy", "Operational"],
+  "userType": "Government",
+  "repositoryHost": "github.com/DSACMS",
+  "maturityModelTier": 1,
 }
