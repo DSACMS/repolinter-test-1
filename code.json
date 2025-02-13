@@ -47,5 +47,5 @@
   "subsetInHealthcare": ["Policy", "Operational"],
   "userType": "Government",
   "repositoryHost": "github.com/DSACMS",
-  "maturityModelTier": 1,
+  "maturityModelTier": 1
 }
