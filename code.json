@@ -1,11 +1,7 @@
 {
-  "name": "my-project",
-  "description": {
-    "en": {
-      "shortDescription": "A short description of the project.",
-      "longDescription": "A longer description of the project."
-    }
-  },
+  "name": "repolinter-test-1",
+  "description": "Test repository for Repolinter Actions",
+  "longDescription": "This is a playground to test various actions that are made with Github Actions",
   "status": "ideation",
   "permissions": {
     "licenses": [
@@ -17,9 +13,9 @@
     "usageType": "openSource"
   },
   "organization": "Centers for Medicare & Medicaid Services",
-  "repositoryURL": "https://github.com/DSACMS/my-project",
+  "repositoryURL": "https://github.com/DSACMS/repolinter-test-1",
   "vcs": "git",
-  "laborHours": 1127.74,
+  "laborHours": 2656,
   "platforms": [
     "web"
   ],
@@ -28,13 +24,13 @@
   ],
   "softwareType": "standalone/mobile",
   "languages": [
-    "None"
+    "Python"
   ],
   "maintenance": "internal",
   "date": {
-    "created": "2025-01-23T12:32:22-05:00",
-    "lastModified": "2025-01-23T17:33:10+0000",
-    "metadataLastUpdated": "2025-01-23T17:33:10+0000"
+    "created": "2024-12-10T17:23:27Z",
+    "lastModified": "2025-02-13T20:20:45Z",
+    "metaDataLastUpdated": "2025-02-13T20:21:57.448Z"
   },
   "tags": [
     "healthcare"
@@ -43,13 +39,13 @@
     "email": "opensource@cms.hhs.gov",
     "name": "CMS Open Source Program Office"
   },
-  "localisation": "true",
-  "repoType": "Package",
-  "userInput": "Yes",
+  "localisation": false,
+  "repositoryType": "tools",
+  "userInput": false,
   "fismaLevel": "Low",
   "group": "CMS/OA/DSAC",
-  "subsetInHealthcare": "Policy, Operational",
-  "userType": "Providers, Patients, Government",
-  "repositoryHost": "Github.com",
-  "maturityModelTier": "1"
+  "subsetInHealthcare": ["Policy", "Operational"],
+  "userType": "Government",
+  "repositoryHost": "github.com/DSACMS",
+  "maturityModelTier": 1,
 }
