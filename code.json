@@ -1,0 +1,55 @@
+{
+  "name": "my-project",
+  "description": {
+    "en": {
+      "shortDescription": "A short description of the project.",
+      "longDescription": "A longer description of the project."
+    }
+  },
+  "status": "ideation",
+  "permissions": {
+    "licenses": [
+      {
+        "URL": "LICENSE",
+        "name": "CC0-1.0"
+      }
+    ],
+    "usageType": "openSource"
+  },
+  "organization": "Centers for Medicare & Medicaid Services",
+  "repositoryURL": "https://github.com/DSACMS/my-project",
+  "vcs": "git",
+  "laborHours": 1127.74,
+  "platforms": [
+    "web"
+  ],
+  "categories": [
+    "healthcare"
+  ],
+  "softwareType": "standalone/mobile",
+  "languages": [
+    "None"
+  ],
+  "maintenance": "internal",
+  "date": {
+    "created": "2025-01-23T12:32:22-05:00",
+    "lastModified": "2025-01-23T17:33:10+0000",
+    "metadataLastUpdated": "2025-01-23T17:33:10+0000"
+  },
+  "tags": [
+    "healthcare"
+  ],
+  "contact": {
+    "email": "opensource@cms.hhs.gov",
+    "name": "CMS Open Source Program Office"
+  },
+  "localisation": "true",
+  "repoType": "Package",
+  "userInput": "Yes",
+  "fismaLevel": "Low",
+  "group": "CMS/OA/DSAC",
+  "subsetInHealthcare": "Policy, Operational",
+  "userType": "Providers, Patients, Government",
+  "repositoryHost": "Github.com",
+  "maturityModelTier": "1"
+}
