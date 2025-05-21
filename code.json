@@ -15,7 +15,7 @@
   "organization": "Centers for Medicare & Medicaid Services",
   "repositoryURL": "https://github.com/DSACMS/repolinter-test-1",
   "vcs": "git",
-  "laborHours": 2656,
+  "laborHours": 0,
   "platforms": [
     "web"
   ],
@@ -28,9 +28,9 @@
   ],
   "maintenance": "internal",
   "date": {
-    "created": "2024-12-10T17:23:27Z",
-    "lastModified": "2025-02-13T20:20:45Z",
-    "metaDataLastUpdated": "2025-02-13T20:21:57.448Z"
+    "created": "2024-12-10T17:23:27+00:00",
+    "lastModified": "2025-02-13T21:06:55+00:00",
+    "metaDataLastUpdated": "2025-05-21T19:53:06.743076"
   },
   "tags": [
     "healthcare"
@@ -44,7 +44,10 @@
   "userInput": false,
   "fismaLevel": "Low",
   "group": "CMS/OA/DSAC",
-  "subsetInHealthcare": ["Policy", "Operational"],
+  "subsetInHealthcare": [
+    "Policy",
+    "Operational"
+  ],
   "userType": "Government",
   "repositoryHost": "github.com/DSACMS",
   "maturityModelTier": 1
